@@ -10,8 +10,8 @@ to eliminate node version compatibility issues.
 Clone this repository, then build and run the docker image:
 
 ```
-docker build . -t gulp
-docker run --rm -v `pwd`:/opt gulp 
+docker build . -t theme-builder
+docker run --rm -v `pwd`:/opt theme-builder 
 ```
 
 Customize boostrap by editing the files in `scss`.  Preview your changes by opening `index.html` (as a local file reference) in your browser.
